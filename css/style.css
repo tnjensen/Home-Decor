@@ -170,7 +170,6 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .product{
     padding: 10px 0;
-    width: 30%;
 }
 .product p{
     font-size: .85rem;
@@ -217,9 +216,11 @@ h1,h2,h3,h4,h5,h6,a{
     }
     .products{
         display: flex;
+        flex-wrap: wrap;
     }
     .product{
         padding: 0 40px 0 0;
+        width: 33%;
     }
 
 }
