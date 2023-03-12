@@ -77,11 +77,10 @@ h1,h2,h3,h4,h5,h6,a{
     position: relative;
 }
 .user-links a{
-    
+    font-size: .9rem;
 }
 .user-links a, .user-links i{
     padding: 0 10px;
-    font-size: .9rem;
 }
 .user-links i:hover{
     cursor: pointer;
@@ -171,6 +170,7 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .product{
     padding: 10px 0;
+    width: 30%;
 }
 .product p{
     font-size: .85rem;
