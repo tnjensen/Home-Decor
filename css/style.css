@@ -215,6 +215,7 @@ h1,h2,h3,h4,h5,h6,a{
     padding: 10px 0 20px 0;
 }
 .lounge-icon, .bedroom-icon{
+    width: 120px;
     position: relative;
     left: -25px;
     top: -15px;
@@ -258,5 +259,10 @@ h1,h2,h3,h4,h5,h6,a{
     .detail p{
         width: 50%;
     }
-
+    .lounge-icon, .bedroom-icon{
+        width: 150px;
+        position: relative;
+        left: -30px;
+        top: -15px;
+    }
 }
