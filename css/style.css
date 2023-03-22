@@ -204,8 +204,12 @@ h1,h2,h3,h4,h5,h6,a{
     flex-wrap: wrap;
     padding: 20px 0 80px 20px;
 }
-.detail{
-    max-width: 90%;
+.detail img{
+    max-width: 50%;
+    height: auto;
+}
+.detail p{
+    max-width: 50%;
 }
 .detail h3, .detail p{
     padding: 10px 0 20px 0;
@@ -250,9 +254,6 @@ h1,h2,h3,h4,h5,h6,a{
     .product{
         padding: 0 40px 20px 0;
         width: 33%;
-    }
-    .details{
-        flex-wrap: nowrap;
     }
     .detail p{
         width: 50%;
