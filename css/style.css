@@ -208,7 +208,11 @@ h1,h2,h3,h4,h5,h6,a{
 .details{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0 80px 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.detail{
+    margin: 20px 0;
 }
 .detail img{
     max-width: 50%;
