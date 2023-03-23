@@ -192,10 +192,13 @@ h1,h2,h3,h4,h5,h6,a{
     background-color: var(--secondary);
 }
 .products-header{
-    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
     padding: 60px 0 0 20px;
 }
 .products-header img{
+    max-width: 100%;
+    height: auto;
     margin: 20px;
     filter: contrast(150%);
 }
