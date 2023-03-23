@@ -210,7 +210,7 @@ h1,h2,h3,h4,h5,h6,a{
 .detail img{
     max-width: 50%;
     height: auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 .detail p{
     max-width: 50%;
