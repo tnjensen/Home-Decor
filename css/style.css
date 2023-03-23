@@ -193,13 +193,16 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .products-header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 60px 0 0 20px;
+    align-items: center;
+    padding: 40px 0;
+}
+.products-header h3{
+    padding-bottom: 20px;
 }
 .products-header img{
-    max-width: 100%;
-    height: auto;
-    margin: 20px;
+    margin: 20px 0;
     filter: contrast(150%);
 }
 .details{
