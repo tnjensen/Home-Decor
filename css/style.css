@@ -213,7 +213,7 @@ h1,h2,h3,h4,h5,h6,a{
 .detail img{
     max-width: 50%;
     height: auto;
-    padding: 20px;
+   /*  padding: 20px; */
 }
 .detail p{
     max-width: 50%;
@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5,h6,a{
     width: 150px;
     position: relative;
     left: -30px;
-    top: -40px;
+    top: -30px;
 }
 .footer{
     background-color: var(--secondary-shade);
@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6,a{
     .lounge-icon, .bedroom-icon{
         width: 200px;
         position: relative;
-        left: -50px;
+        left: -40px;
         top: -40px;
     }
 }
