@@ -32,7 +32,6 @@ h1,h2,h3,h4,h5,h6,a{
     min-height: 90vh;
 }
 .container{
-    display: flex;
 }
 .header{
     padding-top: 10px;
@@ -194,7 +193,6 @@ h1,h2,h3,h4,h5,h6,a{
 .products-header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 40px 0;
 }
@@ -205,19 +203,25 @@ h1,h2,h3,h4,h5,h6,a{
     margin: 20px 0;
     filter: contrast(150%);
 }
+.products-header p{
+    max-width: 50%;
+}
 .details{
-    display: flex;
-    flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 40px;
 }
 .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 20px 0;
 }
-.detail img{
+.detail img:not(.bedroom-icon, .lounge-icon){
     max-width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     height: auto;
-   /*  padding: 20px; */
 }
 .detail p{
     max-width: 50%;
@@ -227,9 +231,10 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .lounge-icon, .bedroom-icon{
     width: 150px;
+    padding-top: 10px;
     position: relative;
-    left: -30px;
-    top: -30px;
+    left: 20px;
+    top: -20px;
 }
 .footer{
     background-color: var(--secondary-shade);
@@ -267,13 +272,17 @@ h1,h2,h3,h4,h5,h6,a{
         padding: 0 40px 20px 0;
         width: 33%;
     }
+    .details{
+        display: flex;
+        flex-direction: row;
+    }
     .detail p{
         width: 50%;
     }
     .lounge-icon, .bedroom-icon{
         width: 200px;
         position: relative;
-        left: -40px;
+        left: 25px;
         top: -40px;
     }
 }
