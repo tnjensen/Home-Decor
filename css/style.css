@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6,a{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
+    background: url(../images/pattern1.jpg);
 }
 .header a{
     color: var(--secondary-shade);
@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6,a{
     font-weight: 600;
 }
 .main{
-   /*  background: url(../images/pattern1.jpg); */
+   /* background: url(../images/pattern1.jpg); */
     min-height: 80vh; 
 }
 .products{
