@@ -242,7 +242,7 @@ h1,h2,h3,h4,h5,h6,a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
 }
 .detail img:not(.bedroom-icon, .lounge-icon){
     max-width: 50%;
@@ -256,7 +256,7 @@ h1,h2,h3,h4,h5,h6,a{
 .detail p{
     max-width: 50%;
 }
-.detail h3, .detail p{
+.detail h3{
     padding: 10px 0 20px 0;
 }
 .lounge-icon, .bedroom-icon{
