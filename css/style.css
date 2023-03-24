@@ -187,8 +187,8 @@ h1,h2,h3,h4,h5,h6,a{
     border: 2px solid var(--secondary);
 }
 .read-more-btn{
-    margin-top: 5px;
-    padding: 5px 10px;
+    margin-top: 7px;
+    padding: 7px 12px;
     border-radius: 5px;
     border: none;
     background-color: var(--secondary-shade);
@@ -199,7 +199,11 @@ h1,h2,h3,h4,h5,h6,a{
     cursor: pointer;
 }
 .buy-now-btn{
-    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
     padding: 15px 20px;
     border-radius: 5px;
     border: none;
@@ -316,5 +320,13 @@ h1,h2,h3,h4,h5,h6,a{
         width: 150px;
         position: relative;  
         top: -30px;
+    }
+    .read-more-btn{
+        margin-top: 10px;
+        padding: 10px 15px;
+    }
+    .buy-now-btn{
+        margin-top: 25px;
+        padding: 20px 30px;
     }
 }
