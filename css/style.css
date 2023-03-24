@@ -280,9 +280,12 @@ h1,h2,h3,h4,h5,h6,a{
         width: 50%;
     }
     .lounge-icon, .bedroom-icon{
-        width: 200px;
+        width: 180px;
         position: relative;
-        left: 25px;
+        left: 20px;
         top: -40px;
+    }
+    .bedroom-icon{
+        left: 15px;
     }
 }
