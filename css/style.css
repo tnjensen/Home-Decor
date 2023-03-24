@@ -231,7 +231,6 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .lounge-icon, .bedroom-icon{
     width: 150px;
-    padding-top: 10px;
     position: relative;
     left: 20px;
     top: -20px;
