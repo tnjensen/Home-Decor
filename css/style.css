@@ -220,6 +220,8 @@ h1,h2,h3,h4,h5,h6,a{
     left: 50%;
     transform: translateX(-50%);
     height: auto;
+    width: 300px;
+    padding-bottom: 15px;
 }
 .detail p{
     max-width: 50%;
@@ -228,7 +230,7 @@ h1,h2,h3,h4,h5,h6,a{
     padding: 10px 0 20px 0;
 }
 .lounge-icon, .bedroom-icon{
-    width: 150px;
+    width: 120px;
     position: relative;
     left: 20px;
     top: -20px;
@@ -276,13 +278,13 @@ h1,h2,h3,h4,h5,h6,a{
     .detail p{
         width: 50%;
     }
-    .lounge-icon, .bedroom-icon{
-        width: 180px;
-        position: relative;
-        left: 20px;
-        top: -40px;
+    .detail img:not(.bedroom-icon, .lounge-icon){
+        height: auto;
+        width: 100%;
     }
-    .bedroom-icon{
-        left: 15px;
+    .lounge-icon, .bedroom-icon{
+        width: 150px;
+        position: relative;  
+        top: -30px;
     }
 }
