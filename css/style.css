@@ -199,6 +199,8 @@ h1,h2,h3,h4,h5,h6,a{
     padding-bottom: 20px;
 }
 .products-header img{
+    width: 150px;
+    height: auto;
     margin: 20px 0;
     filter: contrast(150%);
 }
@@ -270,6 +272,10 @@ h1,h2,h3,h4,h5,h6,a{
     .product{
         padding: 0 40px 20px 0;
         width: 33%;
+    }
+    .products-header img{
+        width: 200px;
+        height: auto;
     }
     .details{
         display: flex;
