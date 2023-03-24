@@ -186,6 +186,30 @@ h1,h2,h3,h4,h5,h6,a{
 .product-image:hover{
     border: 2px solid var(--secondary);
 }
+.read-more-btn{
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-shade);
+    color: var(--white);
+}
+.read-more-btn:hover{
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+.buy-now-btn{
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-shade);
+    color: var(--white);
+}
+.buy-now-btn:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+}
 .featured{
     background-color: var(--secondary);
 }
