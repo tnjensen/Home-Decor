@@ -87,7 +87,6 @@ h1,h2,h3,h4,h5,h6,a{
     background-color: var(--primary-tint);
     border-radius: 50%;
     padding: 10px;
-    
 }
 .user-links ul,.nav-menu ul, .sidebar ul, .sidebar-right ul{
     list-style-type: none;
@@ -187,8 +186,8 @@ h1,h2,h3,h4,h5,h6,a{
     border: 2px solid var(--secondary);
 }
 .read-more-btn{
-    margin-top: 7px;
-    padding: 7px 12px;
+    margin-top: 8px;
+    padding: 8px 13px;
     border-radius: 5px;
     border: none;
     background-color: var(--secondary-shade);
@@ -204,7 +203,7 @@ h1,h2,h3,h4,h5,h6,a{
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 30px;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: none;
     background-color: var(--primary-shade);
@@ -255,15 +254,16 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .detail p{
     max-width: 50%;
+    padding-top: 15px;
 }
 .detail h3{
-    padding: 10px 0 20px 0;
+    padding: 10px 0 30px 0;
 }
 .lounge-icon, .bedroom-icon{
-    width: 120px;
+    width: 110px;
     position: relative;
     left: 20px;
-    top: -20px;
+    top: -30px;
 }
 .footer{
     background-color: var(--secondary-shade);
@@ -317,7 +317,7 @@ h1,h2,h3,h4,h5,h6,a{
         width: 100%;
     }
     .lounge-icon, .bedroom-icon{
-        width: 150px;
+        width: 130px;
         position: relative;  
         top: -30px;
     }
@@ -326,7 +326,7 @@ h1,h2,h3,h4,h5,h6,a{
         padding: 10px 15px;
     }
     .buy-now-btn{
-        margin-top: 25px;
-        padding: 20px 30px;
+        margin-top: 30px;
+        padding: 15px 30px;
     }
 }
