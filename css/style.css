@@ -8,7 +8,6 @@
          url('../fonts/robotoflexgradxopqxtrayopqytasytdeytfiytlcytucopszslntwdthwght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 :root{
     --primary: #f27022;
@@ -91,12 +90,8 @@ h1,h2,h3,h4,h5,h6,a{
     cursor: pointer;
     background-color: var(--primary);
 }
-.user-links{
-    background-color: #fffefe;
-    position: relative;
-}
 .user-links a{
-    font-size: .9rem;
+    font-size: .8rem;
 }
 .user-links a, .user-links i{
     padding: 0 10px;
@@ -104,8 +99,8 @@ h1,h2,h3,h4,h5,h6,a{
 .user-links i:hover{
     cursor: pointer;
     background-color: var(--primary-tint);
+    padding: 0 10px;
     border-radius: 50%;
-    padding: 10px;
 }
 .user-links ul,.nav-menu ul, .sidebar ul, .sidebar-right ul{
     list-style-type: none;
@@ -313,6 +308,9 @@ h1,h2,h3,h4,h5,h6,a{
     }
     .navbar li{
         padding-right: 10px;
+    }
+    .user-links a{
+        font-size: .9rem;
     }
     .products{
         display: flex;
