@@ -52,15 +52,13 @@ h1,h2,h3,h4,h5,h6,a{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 .header a{
     color: var(--secondary-shade);
 }
 .header-branding{
     color: var(--primary-shade);
-}
-.user-links li{
- padding-right: 10px;
 }
 .logo{
     width: 50px;
@@ -90,17 +88,21 @@ h1,h2,h3,h4,h5,h6,a{
     cursor: pointer;
     background-color: var(--primary);
 }
+.user-links{
+    position: relative;
+}
 .user-links a{
     font-size: .8rem;
 }
 .user-links a, .user-links i{
-    padding: 0 10px;
+    padding: 10px;
 }
 .user-links i:hover{
     cursor: pointer;
     background-color: var(--primary-tint);
-    padding: 0 10px;
+    padding: 10px;
     border-radius: 50%;
+   
 }
 .user-links ul,.nav-menu ul, .sidebar ul, .sidebar-right ul{
     list-style-type: none;
