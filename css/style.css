@@ -27,10 +27,10 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: "Open Sans", sans-serif; */
-    font-family: 'roboto_flexregular';
+    font-family: "Open Sans", sans-serif;
+   /*  font-family: 'roboto_flexregular';
     font-weight: normal;
-    font-style: normal;
+    font-style: normal; */
     line-height: 1.3;
     background-color: var(--background-color);
     color: var(--copy-color); 
@@ -74,7 +74,6 @@ h1,h2,h3,h4,h5,h6,a{
     letter-spacing: 1px;
 }
 .logo a{
-    /* font-family: "Museo Slab"; */
     font-family: 'roboto_flexregular';
     font-size: 1.2rem;
     position: relative;
@@ -95,7 +94,7 @@ h1,h2,h3,h4,h5,h6,a{
     font-size: .8rem;
 }
 .user-links a, .user-links i{
-    padding: 10px;
+    padding: 10px; /* Setting the same padding as on hover, to prevent movement on hover */
 }
 .user-links i:hover{
     cursor: pointer;
@@ -201,6 +200,7 @@ h1,h2,h3,h4,h5,h6,a{
     border: 2px solid var(--secondary);
 }
 .read-more-btn{
+    font-family: 'roboto_flexregular';
     font-size: 1rem;
     margin-top: 8px;
     padding: 8px 13px;
@@ -214,11 +214,10 @@ h1,h2,h3,h4,h5,h6,a{
     cursor: pointer;
 }
 .buy-now-btn{
-   /*  font-family: 'Open Sans', sans-serif; */
     font-family: 'roboto_flexregular';
     text-transform: uppercase;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 300;
     letter-spacing: 1px;
     margin-top: 30px;
     padding: 10px 20px;
