@@ -216,7 +216,7 @@ h1,h2,h3,h4,h5,h6,a{
 .buy-now-btn{
     font-family: 'roboto_flexregular';
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     margin-top: 30px;
     padding: 10px 20px;
@@ -246,6 +246,15 @@ h1,h2,h3,h4,h5,h6,a{
     height: auto;
     margin: 20px 0;
     filter: contrast(150%);
+}
+.expand:hover
+{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: .3s;
+overflow-x: hidden;
+overflow-y: hidden;
 }
 .products-header p{
     max-width: 50%;
@@ -341,10 +350,12 @@ h1,h2,h3,h4,h5,h6,a{
         top: -30px;
     }
     .read-more-btn{
+        font-size: 1.05rem;
         margin-top: 10px;
         padding: 10px 15px;
     }
     .buy-now-btn{
+        font-size: 1.1rem;
         margin-top: 30px;
         padding: 15px 30px;
     }
