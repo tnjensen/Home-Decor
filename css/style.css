@@ -338,7 +338,7 @@ overflow-y: hidden;
     width: 300px;
     padding-bottom: 15px;
 }
-.detail p{
+.detail p, .products-header p{
     max-width: 50%;
     padding-top: 15px;
 }
