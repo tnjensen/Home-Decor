@@ -87,6 +87,12 @@ h1,h2,h3,h4,h5,h6,a{
     cursor: pointer;
     background-color: var(--primary);
 }
+/* .fade-in{
+    opacity: .8;
+}
+.fade-in:hover{
+    opacity: 1;
+} */
 .user-links{
     position: relative;
 }
@@ -199,6 +205,56 @@ h1,h2,h3,h4,h5,h6,a{
 .product-image:hover{
     border: 2px solid var(--secondary);
 }
+.skew:hover{
+    /* transform: skewX(-10deg) scale(1.1); */
+   /* transform: skewY(-10deg); */
+   /* transform: skew(-10deg, -10deg); */
+}
+/* .rotate:hover{
+    animation: rotate 3s infinite;
+} */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#f1_container {
+    /* position: relative; */
+   /*  margin: 10px auto; */
+    /* width: 450px;
+    height: 281px; */
+    z-index: 1;
+  }
+  #f1_container {
+    perspective: 1000;
+  }
+  #f1_card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+  }
+  #f1_container:hover #f1_card {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+  }
+  .face {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .face.back {
+    display: block;
+    transform: rotateY(180deg);
+   /*  padding: 10px; */
+    color: white;
+    text-align: center;
+    background-color: #aaa;
+  }
 .read-more-btn{
     font-family: 'roboto_flexregular';
     font-size: 1rem;
@@ -247,7 +303,7 @@ h1,h2,h3,h4,h5,h6,a{
     margin: 20px 0;
     filter: contrast(150%);
 }
-.expand:hover
+/* .expand:hover
 {
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
@@ -256,6 +312,11 @@ transition: .3s;
 overflow-x: hidden;
 overflow-y: hidden;
 }
+.smaller:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+} */
 .products-header p{
     max-width: 50%;
 }
