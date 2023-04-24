@@ -254,7 +254,8 @@ h1,h2,h3,h4,h5,h6,a{
   }
 .read-more-btn{
     font-family: 'roboto_flexregular';
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
     margin-top: 8px;
     padding: 8px 13px;
     border-radius: 5px;
@@ -269,7 +270,7 @@ h1,h2,h3,h4,h5,h6,a{
 .buy-now-btn{
     font-family: 'roboto_flexregular';
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: 1px;
     margin-top: 30px;
     padding: 10px 20px;
@@ -420,13 +421,12 @@ overflow-y: hidden;
         left: 20px;
         top: -30px;
     }
-    .read-more-btn{
-        font-size: 1.05rem;
+    .read-more-btn{   
         margin-top: 10px;
         padding: 10px 15px;
     }
     .buy-now-btn{
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-top: 30px;
         padding: 15px 30px;
     }
